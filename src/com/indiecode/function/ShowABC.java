@@ -28,6 +28,7 @@ public class ShowABC implements functions {
     @Override
     public void printABC(int start, int end) {
         tmp=0;
+        //Increments tmp in one until is greater than or equal to start, and then starts printing the letter in lower case format.
         for( letter= 'A'; letter<='Z' && tmp<end; letter++,tmp++){
             if (tmp>=start){
                 System.out.println(letter + " " + String.valueOf(letter).toLowerCase());
