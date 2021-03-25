@@ -12,14 +12,10 @@ public class ShowABC implements functions {
     public ShowABC() {
     }
 
-
+    //Just prints in console A to Z
     public void printABC() {
-
         for( letter= 'A'; letter<='Z' ; letter++){
-
                 System.out.println(letter + " " + String.valueOf(letter).toLowerCase());
-
-
         }
     }
 
@@ -30,9 +26,7 @@ public class ShowABC implements functions {
             if (tmp>=start){
                 System.out.println(letter + " " + String.valueOf(letter).toLowerCase());
             }
-
         }
-
     }
 
     @Override
@@ -42,10 +36,8 @@ public class ShowABC implements functions {
             if (tmp>=start){
                 System.out.println(letter + " " + String.valueOf(letter).toLowerCase());
             }
-
         }
     }
-
 
     public void printLetter(int index) {
         List letters = new List(26);
