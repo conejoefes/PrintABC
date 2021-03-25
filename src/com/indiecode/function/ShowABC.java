@@ -1,12 +1,8 @@
 package com.indiecode.function;
-
 import java.awt.*;
-
 
 public class ShowABC implements functions {
     private char letter;
-    private int start;
-    private int end;
     private int tmp;
 
     public ShowABC() {
@@ -41,7 +37,6 @@ public class ShowABC implements functions {
 
     public void printLetter(int index) {
         List letters = new List(26);
-
         for( letter= 'A'; letter<='Z' ; letter++){
             //add an elements of char into a list
            letters.add(String.valueOf(letter));
